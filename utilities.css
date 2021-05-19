@@ -1,0 +1,236 @@
+
+.container{
+ max-width: 1100px;
+ margin: 0 auto;
+ overflow: auto;
+ padding: 0px 40px;
+}
+
+.flex{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ height: 100%;
+ /* overflow: hidden; */
+}
+.card {
+ background:var(--varbarcolor);
+ border-radius: 10px;
+ box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.8);
+ padding: 20px ;
+ margin: 10px;
+ position: relative;
+ z-index: 5;
+ font-weight: 700;
+}
+.card > h2{
+ color: black;
+ font-weight: 500;
+}
+
+.btn{
+ display: inline-block;
+ padding: 10px 30px;
+ cursor: pointer;
+ background-color: var(--maincolor);
+ color: var(--varbarcolor);
+ border: none;
+ border-radius: 5px;
+}
+
+.btn-outline {
+ background-color: var(--btncolor);
+ font-weight: 600;
+ border: 1px var(--varbarcolor);
+}
+
+.btn:hover{
+ transform: scale(0.95);
+}
+
+
+
+/* Background & colored buttons */
+
+.bg-primary{
+ background-color: #555;
+ color: linen;
+}
+
+.lg {
+ font-size: 4rem;
+}
+
+.lg h2{
+ display: flex;
+}
+
+.text-center{
+ align-items: center;
+}
+
+
+
+
+.my-1 {
+ margin: 1rem 0;
+}
+
+.my-2 {
+ margin: 1.5rem 0;
+}
+.my-3 {
+ margin: 2rem 0;
+}
+
+.my-4 {
+ margin: 3rem 0;
+}
+
+.my-5 {
+ margin: 4rem 0;
+}
+
+.m-1 {
+ margin: 1rem;
+}
+
+.m-2 {
+ margin: 1.5rem;
+}
+.m-3 {
+ margin: 2rem;
+}
+
+.m-4 {
+ margin: 3rem;
+}
+
+.m-5 {
+ margin: 4rem;
+}
+
+
+
+.py-1 {
+ padding: 1rem 0;
+}
+
+.py-2 {
+ padding: 1.5rem 0;
+}
+.py-3 {
+ padding: 2rem 0;
+}
+
+.py-4 {
+ padding: 3rem 0;
+}
+
+.py-5 {
+ padding: 4rem 0;
+}
+
+.p-1 {
+ padding: 1rem;
+}
+
+.p-2 {
+ padding: 1.5rem;
+}
+.p-3 {
+ padding: 2rem;
+}
+
+.p-4 {
+ padding: 3rem;
+}
+
+.p-5 {
+ padding: 4rem;
+}
+
+
+.footer{
+ background-color: black;
+ color: white;
+}
+
+.footer nav ul li a{
+ color:white;
+  margin: 0px 200px;
+}
+.footer hr{
+ margin-top: 25px;
+}
+.footer p {
+ margin-top: 3px;
+ text-align: center;
+ font-size: 1.5rem;
+}
+
+/* Docs */
+
+.docs-main h3 {
+ margin: 20px;
+
+}
+
+.docs-main .grid{
+ grid-template-columns: 1fr 2fr;
+ align-items: flex-start;
+}
+
+.docs-main nav li {
+ font-size: 17px;
+ padding-bottom: 5px;
+ margin-bottom: 5px;
+ border-bottom: 1px black solid;
+ transition: all 1s ease;
+}
+
+.docs-main a:hover{
+ font-weight: bold;
+}
+
+/* alert */
+
+.alert{
+ background-color: white;
+ padding: 10px;
+ font-weight: bold;
+ margin: 15px 0;
+}
+
+.alert i {
+ margin-right: 10px;
+}
+
+.alert-sucess{
+ color: limegreen;
+}
+
+code,pre {
+ background: #333;
+ color: white;
+ padding: 10px;
+}
+
+.text-primary{
+ color: lightskyblue;
+ font-weight: bold;
+}
+
+.hidden {
+  visibility: none;
+  height: 0;
+}
+h1.md {
+  font-size: 4rem;
+  font-weight: bold;
+}
+body > section.languages > h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
